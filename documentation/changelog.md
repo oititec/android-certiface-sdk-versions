@@ -4,6 +4,52 @@
 
 # Changelog
 
+### [Versão 1.0.2](https://github.com/oititec/android-oiti-sdk-versions/releases/tag/1.0.2)
+
+Data: 29/10/2025
+
+### **Adicionado**
+- **LineDrawing Filter**
+  - Suporte a **background** e **foreground** personalizados.
+  - Exemplo:
+    ```kotlin
+    setFilter(
+        FilterTheme.LineDrawing(
+            style = LineDrawingStyle.SHADED,
+            background = "#32a852".toColorInt(),
+            foreground = "#4232a8".toColorInt()
+        )
+    )
+    ```
+
+- **Close Button**
+  - Nova propriedade adicionada para personalizar a cor do botão de fechamento:
+    ```kotlin
+    setCloseButtonColor("#a8324a")
+    ```
+
+### **Alterado**
+- **Instructions Screen / DomainInstructionCustomsBuilder**
+  - Ajustadas propriedades relacionadas às instruções de **liveness**:
+    - `setFirstInstructionIcon()`  
+    - `setFirstInstructionIconBorderColor()`  
+    - `setFirstInstructionText()`  
+    - `setFirstInstructionTextColor()`  
+    - `setFirstInstructionIconBackgroundColor()`  
+    - `setSecondInstructionIcon()`  
+    - `setSecondInstructionIconBackgroundColor()`  
+    - `setSecondInstructionIconBorderColor()`  
+    - `setSecondInstructionText()`  
+    - `setSecondInstructionTextColor()`  
+
+### **Atualizado**
+- **iProov SDK** atualizado para a versão **10.4.0**.
+  - Novas propriedades disponíveis apenas para o modo **Genuine Presence Assurance (GPA)**:
+    - `controlXPosition`: exibe mensagem para movimentar o rosto **horizontalmente**.
+    - `controlYPosition`: exibe mensagem para movimentar o rosto **verticalmente**.
+    - `scanningPrompts`: exibe mensagens de *“scaneando”* e *“scaneado”* durante o processo.
+
+
 ### [Versão 1.0.1](https://github.com/oititec/android-oiti-sdk-versions/releases/tag/1.0.1)
 
 Data: 03/10/2025
