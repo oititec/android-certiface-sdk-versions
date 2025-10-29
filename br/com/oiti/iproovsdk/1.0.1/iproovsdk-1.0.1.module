@@ -1,0 +1,322 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "br.com.oiti",
+    "module": "iproovsdk",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.iproov.sdk",
+          "module": "iproov",
+          "version": {
+            "requires": "10.3.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iproovsdk-1.0.1.aar",
+          "url": "iproovsdk-1.0.1.aar",
+          "size": 258839,
+          "sha512": "c4f1db7d01ecea1c464eca5cbbe466bbb3780d7f6f78663e40e672449282144345cb2dd092555b25ebb93f261c61b2bd32d836af737cf36473cdc092594aeaed",
+          "sha256": "2b8d9924611de0015f41f6a96d2be4caabeccba4f0e634f4a5da59f3fd3870ae",
+          "sha1": "d9de2f92379813e182a78f115b04d57f53792264",
+          "md5": "c8110b19d9e7b4ddde1010dee6d6ff6d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.9.4"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics"
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "dagger",
+          "version": {
+            "requires": "2.57.1"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "dagger-android",
+          "version": {
+            "requires": "2.57.1"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "dagger-android-support",
+          "version": {
+            "requires": "2.57.1"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "5.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "5.1.0"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2025.09.00"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-livedata"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-rxjava2"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-compose",
+          "version": {
+            "requires": "2.9.4"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.9.4"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.9.4"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-permissions",
+          "version": {
+            "requires": "0.37.3"
+          }
+        },
+        {
+          "group": "br.com.oiti",
+          "module": "di",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "br.com.oiti",
+          "module": "core",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "br.com.oiti",
+          "module": "domain",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "br.com.oiti",
+          "module": "designsystem",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "br.com.oiti",
+          "module": "logging",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "br.com.oiti",
+          "module": "utils",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "com.iproov.sdk",
+          "module": "iproov",
+          "version": {
+            "requires": "10.3.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iproovsdk-1.0.1.aar",
+          "url": "iproovsdk-1.0.1.aar",
+          "size": 258839,
+          "sha512": "c4f1db7d01ecea1c464eca5cbbe466bbb3780d7f6f78663e40e672449282144345cb2dd092555b25ebb93f261c61b2bd32d836af737cf36473cdc092594aeaed",
+          "sha256": "2b8d9924611de0015f41f6a96d2be4caabeccba4f0e634f4a5da59f3fd3870ae",
+          "sha1": "d9de2f92379813e182a78f115b04d57f53792264",
+          "md5": "c8110b19d9e7b4ddde1010dee6d6ff6d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "iproovsdk-1.0.1-sources.jar",
+          "url": "iproovsdk-1.0.1-sources.jar",
+          "size": 29987,
+          "sha512": "7dc4345a3a692394ce11280af0bea042da6900b895da918567254882f8e26ec322b159883e0c120547f86982ad03ef972a41cf24a34285ea66b26584d96fd2b5",
+          "sha256": "def7b801f5c6924bdf3897ebc594b5807059ac6b8e60860e11e188e9596ab837",
+          "sha1": "5c42621bfcc3e33e20fe1e087b296358089dc09c",
+          "md5": "6d3018a98431ec3d70b788f53c783c23"
+        }
+      ]
+    }
+  ]
+}
