@@ -6,7 +6,7 @@
 
 ### [Versão 1.0.2](https://github.com/oititec/android-oiti-sdk-versions/releases/tag/1.0.2)
 
-Data: 29/10/2025
+Data: 30/10/2025
 
 ### **Adicionado**
 - **LineDrawing Filter**
@@ -30,17 +30,20 @@ Data: 29/10/2025
 
 ### **Alterado**
 - **Instructions Screen / DomainInstructionCustomsBuilder**
-  - Ajustadas propriedades relacionadas às instruções de **liveness**:
-    - `setFirstInstructionIcon()`  
-    - `setFirstInstructionIconBorderColor()`  
-    - `setFirstInstructionText()`  
-    - `setFirstInstructionTextColor()`  
-    - `setFirstInstructionIconBackgroundColor()`  
-    - `setSecondInstructionIcon()`  
-    - `setSecondInstructionIconBackgroundColor()`  
-    - `setSecondInstructionIconBorderColor()`  
-    - `setSecondInstructionText()`  
-    - `setSecondInstructionTextColor()`  
+ - Refatoração de nomenclatura das propriedades relacionadas às instruções de **liveness**:
+    - `documentTypesInstruction*` → `firstInstruction*`
+    - `documentTipsInstruction*` → `secondInstruction*`
+  - O comportamento das propriedades permanece o mesmo, apenas com nomes atualizados para melhor clareza e padronização.
+  - Exemplo:
+    ```kotlin
+    // Antes
+    setDocumentTypesInstructionIcon(R.drawable.arrow_left_black)
+    setDocumentTipsInstructionIcon(R.drawable.camera_alt)
+
+    // Agora
+    setFirstInstructionIcon(R.drawable.arrow_left_black)
+    setSecondInstructionIcon(R.drawable.camera_alt)
+    ```
 
 ### **Atualizado**
 - **iProov SDK** atualizado para a versão **10.4.0**.
@@ -48,7 +51,6 @@ Data: 29/10/2025
     - `controlXPosition`: exibe mensagem para movimentar o rosto **horizontalmente**.
     - `controlYPosition`: exibe mensagem para movimentar o rosto **verticalmente**.
     - `scanningPrompts`: exibe mensagens de *“scaneando”* e *“scaneado”* durante o processo.
-
 
 ### [Versão 1.0.1](https://github.com/oititec/android-oiti-sdk-versions/releases/tag/1.0.1)
 
