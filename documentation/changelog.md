@@ -4,6 +4,19 @@
 
 # Changelog
 
+### [Versão 1.0.3](https://github.com/oititec/android-oiti-sdk-versions/releases/tag/1.0.3)
+
+Data: 18/11/2025
+
+**Atualizações de SDKs e ajustes internos**
+- Atualizações de versões
+  - FaceTec SDK atualizado para 9.7.96
+  - iProov SDK atualizado para 11.1.0
+- Mudanças importantes
+  - Removido o parâmetro setCamera do fluxo iProov devido às alterações introduzidas na versão 11.1.0.
+  - O controle de câmera agora é totalmente interno ao SDK.
+  - Ajustes internos de segurança e melhorias de fluxo foram aplicados para acompanhar as mudanças da nova versão do iProov.
+
 ### [Versão 1.0.2](https://github.com/oititec/android-oiti-sdk-versions/releases/tag/1.0.2)
 
 Data: 30/10/2025
