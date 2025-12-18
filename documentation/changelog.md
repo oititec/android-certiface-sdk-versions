@@ -104,17 +104,7 @@ IProovTheme.build {
     )
 }
 ```
-       }
-    )
-}
-```
-     onRetry = resultState.onRetry
-                )
-            }
-        }
-    )
-}
-```
+
 ---
 
 ### [Versão 1.0.3](https://github.com/oititec/android-oiti-sdk-versions/releases/tag/1.0.3)
