@@ -4,6 +4,109 @@
 
 # Changelog
 
+### [Versão 1.1.0](https://github.com/oititec/android-oiti-sdk-versions/releases/tag/1.1.0)
+
+Data: 18/12/2025
+
+### Atualizações
+- FaceTec SDK atualizado para a versão 9.7.102
+
+### Mudanças importantes
+
+#### Possibilidade de pular a tela de instruções.
+
+```kotlin
+setInstructionsTheme {
+    setShowInstructionScreen(false)
+}
+```
+
+#### Alteração no parâmetro de seleção de provider de liveness.
+
+Antes:
+```kotlin
+CertifaceSDK.createLivenessManager(CertifaceSDK.LivenessProvider.IPROOV)
+```
+
+Depois:
+```kotlin
+CertifaceSDK.createLivenessManager(LivenessProvider.IPROOV)
+```
+
+#### Nova forma de customizar totalmente os fluxos utilizando functions composables.
+
+#### Exemplo FaceTec:
+```kotlin
+FacetecTheme.build {
+    setCustomScreens(
+        FacetecCustomScreensBuilder.build {
+            setCustomInstructionComposable { callbacks ->
+                FacetecInstructionScreen(
+                    onStartClick = callbacks.onStartClick,
+                    onBack = callbacks.onBack
+                )
+            }
+
+            setCustomPermissionComposable { callbacks ->
+                FacetecPermissionScreen(
+                    onPermissionGranted = callbacks.onPermissionGranted,
+                    onBack = callbacks.onBack
+                )
+            }
+
+            setCustomLoadingDialogComposable { message, progress ->
+                FacetecLoadingDialog(
+                    message = message,
+                    progress = progress
+                )
+            }
+        }
+    )
+}
+```
+
+#### Exemplo IProov:
+```kotlin
+IProovTheme.build {
+    setCustomScreens(
+        IProovCustomScreensBuilder.build {
+            setCustomInstructionComposable { callbacks ->
+                IProovInstructionScreen(
+                    onStartClick = callbacks.onStartClick,
+                    onBack = callbacks.onBack
+                )
+            }
+
+            setCustomPermissionComposable { callbacks ->
+                IProovPermissionScreen(
+                    onPermissionGranted = callbacks.onPermissionGranted,
+                    onBack = callbacks.onBack
+                )
+            }
+
+            setCustomLoadingDialogComposable { message, progress ->
+                IProovLoadingDialog(
+                    message = message,
+                    progress = progress
+                )
+            }
+
+            setCustomResultComposable { resultState ->
+                IProovResultScreen(
+                    success = resultState.success,
+                    errorMessage = resultState.errorMessage,
+                    showRetryButton = resultState.showRetryButton,
+                    reason = resultState.reason,
+                    onRetry = resultState.onRetry
+                )
+            }
+        }
+    )
+}
+```
+
+---
+
 ### [Versão 1.0.3](https://github.com/oititec/android-oiti-sdk-versions/releases/tag/1.0.3)
 
 Data: 18/11/2025
@@ -16,6 +119,8 @@ Data: 18/11/2025
   - Removido o parâmetro setCamera do fluxo iProov devido às alterações introduzidas na versão 11.1.0.
   - O controle de câmera agora é totalmente interno ao SDK.
   - Ajustes internos de segurança e melhorias de fluxo foram aplicados para acompanhar as mudanças da nova versão do iProov.
+
+---
 
 ### [Versão 1.0.2](https://github.com/oititec/android-oiti-sdk-versions/releases/tag/1.0.2)
 
@@ -64,6 +169,8 @@ Data: 30/10/2025
     - `controlXPosition`: exibe mensagem para movimentar o rosto **horizontalmente**.
     - `controlYPosition`: exibe mensagem para movimentar o rosto **verticalmente**.
     - `scanningPrompts`: exibe mensagens de *“scaneando”* e *“scaneado”* durante o processo.
+   
+---
 
 ### [Versão 1.0.1](https://github.com/oititec/android-oiti-sdk-versions/releases/tag/1.0.1)
 
@@ -74,6 +181,8 @@ Data: 03/10/2025
   - APIs novas pra customizar tempo de exibição das animações no fluxo de Liveness (display time configurável entre 1,5 s e 3 s).
   - Remoção das APIs de timeout de sessão de Liveness não operacionais, deixando o SDK mais limpo.
   - Segurança de Liveness reforçada com testes de injeção de vídeo Nível 4 e 5 pra mitigar ameaças de IA Generativa.
+
+---
 
 ### [Versão 1.0.0](https://github.com/oititec/android-oiti-sdk-versions/releases/tag/1.0.0)
 
