@@ -1,9 +1,9 @@
-<IMG  src="https://github.com/oititec/liveness-android-sdk/blob/main/Documentation/Images/OitiHeader.png?raw=true"  alt="OitiHeader.png"/>
+<IMG  src="https://github.com/oititec/certiface-doc-versions-beta/blob/main/Documentation/Images/CertifaceHeader.png?raw=true"  alt="CertifaceHeader.png"/>
 
 
-# Oiti - SDK para Android
+# Certiface - SDK para Android
 
-Visite o sumário abaixo e conheça sobre as documentações de uso e integração, customização e releases notes Oiti-Sdk para Android.
+Visite o sumário abaixo e conheça sobre as documentações de uso e integração, customização e releases notes Certiface-Sdk para Android.
 
 
 **Simplificamos nossos guias de integração e de customização do nosso SDK Android:**
@@ -15,13 +15,13 @@ Visite o sumário abaixo e conheça sobre as documentações de uso e integraç�
 
 ### App de Exemplo
 
-Um exemplo de implementação pode ser encontrado no projeto Oiti-Sdk-Demo ou clicando [aqui](https://github.com/oititec/oiti-sdk-demo).
+Um exemplo de implementação pode ser encontrado no projeto Certiface-Sdk-Demo ou clicando [aqui](https://github.com/oititec/oiti-sdk-demo).
 
 --- 
 
 ### Changelog
 
-- Acompanhe as novidades das versões do Oiti-Sdk pelo [Devcenter](https://devcenter.certiface.io/docs/guia-detalhado-de-uso#-changelogs-e-vers%C3%B5es) ou clicando [aqui](https://github.com/oititec/android-oiti-sdk-versions/blob/main/documentation/changelog.md).
+- Acompanhe as novidades das versões do Certiface-Sdk pelo [Devcenter](https://devcenter.certiface.io/docs/guia-detalhado-de-uso#-changelogs-e-vers%C3%B5es) ou clicando [aqui](https://github.com/oititec/android-oiti-sdk-versions/blob/main/documentation/changelog.md).
 
 ---
 ### Saiba mais
@@ -30,6 +30,6 @@ Um exemplo de implementação pode ser encontrado no projeto Oiti-Sdk-Demo ou cl
 
 - Acessar quadro de **compatibilidade de sistemas e drivers**: [consulte este link](https://devcenter.certiface.io/docs/compatibilidade-dos-servicos).
 
-- Entrar em contato com o **atendimento Oiti**: [consulte este link](https://devcenter.certiface.io/docs/portal-de-atendimento).
+- Entrar em contato com o **atendimento Certiface**: [consulte este link](https://devcenter.certiface.io/docs/portal-de-atendimento).
 
 ------
