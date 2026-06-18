@@ -4,6 +4,21 @@
 
 # Changelog
 
+### [Versão 1.2.0](https://github.com/oititec/android-oiti-sdk-versions/releases/tag/1.2.0)
+
+Data: 18/06/2026
+
+### FaceTec
+- Refatoração da arquitetura
+- Novas opções de tema (retry, result screen, activity indicator)
+- Fix: dark mode, textos, ofuscação.
+- FaceTec: 9.7.126
+
+### Design System
+- Novo scaffold com suporte a system bars/insets
+- Telas de liveness (FaceTec/iProov) refatoradas
+- Correções na tela de resultado do iProov
+
 ### [Versão 1.1.0](https://github.com/oititec/android-oiti-sdk-versions/releases/tag/1.1.0)
 
 Data: 18/12/2025
