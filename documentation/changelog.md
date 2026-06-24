@@ -4,6 +4,14 @@
 
 # Changelog
 
+### [Versão 1.2.1](https://github.com/oititec/android-oiti-sdk-versions/releases/tag/1.2.1)
+
+Data: 24/06/2026
+
+### IProov
+- Refatoração da arquitetura
+- IProov: 11.1.11
+
 ### [Versão 1.2.0](https://github.com/oititec/android-oiti-sdk-versions/releases/tag/1.2.0)
 
 Data: 18/06/2026
