@@ -1,0 +1,314 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "br.com.certiface",
+    "module": "certifacesdk",
+    "version": "1.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "br.com.certiface",
+          "module": "core",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "br.com.certiface",
+          "module": "domain",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "br.com.certiface",
+          "module": "designsystem",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "br.com.certiface",
+          "module": "iproovsdk",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "br.com.certiface",
+          "module": "facetecsdk",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "certifacesdk-1.2.1.aar",
+          "url": "certifacesdk-1.2.1.aar",
+          "size": 96655,
+          "sha512": "5c0d37d2dffb8eb3d9020335f4554b5210381ec071ec5b78aca57a4e6e2f7220e20b1dd0e45a1b97b82edbdb2e43cf267bde59f84b6a0d85e221ba769896e024",
+          "sha256": "dff8386c340925d5c7aba2aa6be8436165b2cd969876386fcc896161c21be7fc",
+          "sha1": "6427d24ac12658eec1fd6a2a16415f7ddee20add",
+          "md5": "5fc84b343fe493c7c944fee262c65fc0"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "dagger",
+          "version": {
+            "requires": "2.57.1"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "dagger-android",
+          "version": {
+            "requires": "2.57.1"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "dagger-android-support",
+          "version": {
+            "requires": "2.57.1"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2025.11.00"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-livedata"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-rxjava2"
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "br.com.certiface",
+          "module": "di",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "br.com.certiface",
+          "module": "remote",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "br.com.certiface",
+          "module": "network",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "br.com.certiface",
+          "module": "utils",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "br.com.certiface",
+          "module": "logging",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "br.com.certiface",
+          "module": "data",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "br.com.certiface",
+          "module": "core",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "br.com.certiface",
+          "module": "domain",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "br.com.certiface",
+          "module": "designsystem",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "br.com.certiface",
+          "module": "iproovsdk",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "br.com.certiface",
+          "module": "facetecsdk",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "certifacesdk-1.2.1.aar",
+          "url": "certifacesdk-1.2.1.aar",
+          "size": 96655,
+          "sha512": "5c0d37d2dffb8eb3d9020335f4554b5210381ec071ec5b78aca57a4e6e2f7220e20b1dd0e45a1b97b82edbdb2e43cf267bde59f84b6a0d85e221ba769896e024",
+          "sha256": "dff8386c340925d5c7aba2aa6be8436165b2cd969876386fcc896161c21be7fc",
+          "sha1": "6427d24ac12658eec1fd6a2a16415f7ddee20add",
+          "md5": "5fc84b343fe493c7c944fee262c65fc0"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "certifacesdk-1.2.1-sources.jar",
+          "url": "certifacesdk-1.2.1-sources.jar",
+          "size": 38444,
+          "sha512": "cc17bcee16df371483796cf0c77c2a52dad4756d5f364bcf83ea8add232d7395b36e03f877441e752f349cffe2297ce1599043290f4e17c451b4d9dee10432dc",
+          "sha256": "8470f9ec783ed44703b8291e6c2840949444fe56e635e8310d1b522a1e24f111",
+          "sha1": "c335070f4f506c251fe8073edf843dbb03205ed8",
+          "md5": "103984307503e3a109d9bfb5032db489"
+        }
+      ]
+    }
+  ]
+}
