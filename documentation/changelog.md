@@ -4,6 +4,15 @@
 
 # Changelog
 
+### [Versão 2.0.4](https://github.com/oititec/android-certiface-sdk-versions/releases/tag/2.0.4)
+
+Data: 23/09/2026
+
+### Changed
+- Melhorias de arquitetura
+- Melhorias de segurança
+- Melhorias de performance
+
 ### [Versão 2.0.3](https://github.com/oititec/android-certiface-sdk-versions/releases/tag/2.0.3)
 
 Data: 25/08/2026
