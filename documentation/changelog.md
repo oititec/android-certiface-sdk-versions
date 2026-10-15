@@ -4,6 +4,13 @@
 
 # Changelog
 
+### [Versão 2.0.5](https://github.com/oititec/android-certiface-sdk-versions/releases/tag/2.0.5)
+
+Data: 15/10/2026
+
+### Changed
+- Atualização da FaceTec 9.7.146
+
 ### [Versão 2.0.4](https://github.com/oititec/android-certiface-sdk-versions/releases/tag/2.0.4)
 
 Data: 23/09/2026
