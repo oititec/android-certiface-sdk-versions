@@ -1,0 +1,108 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.shield.android.module",
+    "module": "shield_signature",
+    "version": "1.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "shield_signature-1.0.4.aar",
+          "url": "shield_signature-1.0.4.aar",
+          "size": 20078,
+          "sha512": "b622166e20f74c71a3ee8cd67baaab724738e69759c4f7964a9918a287655c56e7da36ffa70fe0b5093261a305e1862bd35f0a3a6451f5405eb1832cfa78c091",
+          "sha256": "1d76a9e32c13f74fb969766fb97bd31c3b5d10bf4c41dcb20ce389143bbbad6f",
+          "sha1": "2594d947e8653f19a815f1965f517729ce2e59e1",
+          "md5": "0b2ebdd167960e7cae3d06380d06b55a"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "1.8.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "com.lyft.kronos",
+          "module": "kronos-android",
+          "version": {
+            "requires": "0.0.1-alpha11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "shield_signature-1.0.4.aar",
+          "url": "shield_signature-1.0.4.aar",
+          "size": 20078,
+          "sha512": "b622166e20f74c71a3ee8cd67baaab724738e69759c4f7964a9918a287655c56e7da36ffa70fe0b5093261a305e1862bd35f0a3a6451f5405eb1832cfa78c091",
+          "sha256": "1d76a9e32c13f74fb969766fb97bd31c3b5d10bf4c41dcb20ce389143bbbad6f",
+          "sha1": "2594d947e8653f19a815f1965f517729ce2e59e1",
+          "md5": "0b2ebdd167960e7cae3d06380d06b55a"
+        }
+      ]
+    }
+  ]
+}

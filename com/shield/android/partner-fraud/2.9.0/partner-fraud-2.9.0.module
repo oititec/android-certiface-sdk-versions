@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.shield.android",
+    "module": "partner-fraud",
+    "version": "2.9.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "fraudReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.shield.android.module",
+          "module": "common",
+          "version": {
+            "requires": "1.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "partner-fraud-2.9.0.aar",
+          "url": "partner-fraud-2.9.0.aar",
+          "size": 1611525,
+          "sha512": "ba6a8ebe821803d37abd99eaed84e5f7f584418389271c9102c555f3f978703dfa9a71962a9cccae327b57971f3e3eb81a4fe8129797daea06ebe150d92affa2",
+          "sha256": "4d9176120baab017682963727fb79fc75e79fa02f7a8e9df4c268f8ff4f5e3a1",
+          "sha1": "f20c90d60f3ec114cfacfbb15026a2ca749406cf",
+          "md5": "f7ecf3a54cc28facc91a0f37eb65de16"
+        }
+      ]
+    },
+    {
+      "name": "fraudReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.shield.android.module",
+          "module": "shield_signature",
+          "version": {
+            "requires": "1.0.4"
+          }
+        },
+        {
+          "group": "com.shield.android.module",
+          "module": "common",
+          "version": {
+            "requires": "1.0.2"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-appset",
+          "version": {
+            "requires": "16.0.2"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-location",
+          "version": {
+            "requires": "20.0.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-base",
+          "version": {
+            "requires": "18.1.0"
+          }
+        },
+        {
+          "group": "androidx.ads",
+          "module": "ads-identifier",
+          "version": {
+            "requires": "1.0.0-alpha04"
+          }
+        },
+        {
+          "group": "androidx.localbroadcastmanager",
+          "module": "localbroadcastmanager",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.android.installreferrer",
+          "module": "installreferrer",
+          "version": {
+            "requires": "2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-process",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "partner-fraud-2.9.0.aar",
+          "url": "partner-fraud-2.9.0.aar",
+          "size": 1611525,
+          "sha512": "ba6a8ebe821803d37abd99eaed84e5f7f584418389271c9102c555f3f978703dfa9a71962a9cccae327b57971f3e3eb81a4fe8129797daea06ebe150d92affa2",
+          "sha256": "4d9176120baab017682963727fb79fc75e79fa02f7a8e9df4c268f8ff4f5e3a1",
+          "sha1": "f20c90d60f3ec114cfacfbb15026a2ca749406cf",
+          "md5": "f7ecf3a54cc28facc91a0f37eb65de16"
+        }
+      ]
+    }
+  ]
+}
